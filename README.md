@@ -22,5 +22,12 @@ Docker Image
     * augmentation : mean/std preprocessing, pad and crop
 
 
-## 2. Reference
+## 2. Result Comparison on CIFAR-10
+|Source|Score|Detail|
+|:-:|:-:|:-|
+|Paper|96.11|WideResNet with depth 28, k 10, Average 5 runs|
+|Current Repo|96.27|WideResNet with depth 28, k 10, Average 5 runs|
+
+
+## 3. Reference
 - Wide Residual Networks [[paper]](https://arxiv.org/pdf/1605.07146.pdf) [[official code]](https://github.com/szagoruyko/wide-residual-networks)
